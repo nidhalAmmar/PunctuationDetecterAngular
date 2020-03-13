@@ -1,0 +1,9 @@
+{
+    "/PunctuationDetecter/*": {
+    "target": "http://localhost:8080/PunctuationDetecter",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "pathRewrite": {"^/PunctuationDetecter" : ""}
+    }
+}
